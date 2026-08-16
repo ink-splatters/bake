@@ -177,7 +177,12 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
 
 # Other
 PUBLISHING.md
+
+# nix
+/.direnv
+.pre-commit-config-nix.yaml
+/result
