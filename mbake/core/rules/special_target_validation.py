@@ -72,6 +72,7 @@ class SpecialTargetValidationRule(FormatterPlugin):
             ".WAIT": {"duplicatable": False, "requires_prereqs": False},
             ".INCLUDE_DIRS": {"duplicatable": False, "requires_prereqs": False},
             ".LIBPATTERNS": {"duplicatable": False, "requires_prereqs": False},
+            ".DELETE_ON_ERROR": {"duplicatable": False, "requires_prereqs": False},
         }
 
     def _analyze_special_target_usage(self, lines: list[str]) -> dict[str, int]:
